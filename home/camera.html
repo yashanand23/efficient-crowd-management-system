@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <link rel="stylesheet" href="camera_style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>REAL TIME FEED</h1>
+        </header>
+        <div class="container">
+            <div class="col col1">
+                <h2 class="heading">PRIMARY CAMERA</h2>
+                <center>
+                    <div id="text1"></div>
+                </center>
+                <center><img id="video1" src="http://127.0.0.1:5001/video1" width="640" height="480"></center>
+                <div class="counter_container">
+                    <h1>Counter</h1>
+                    <span id="counter"></span>
+                </div>
+            </div>
+            <div class="col col2">
+                <h2 class="heading">SECONDARY CAMERA</h2>
+                <center>
+                    <div id="text2"></div>
+                </center>
+                <center><img id="video2" src="http://127.0.0.1:8001/video1" width="640" height="480"></center>
+                <div class="counter_container">
+                    <h1>Counter</h1>
+                    <span id="counter1"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="final.js"></script>
+</body>
+
+</html>
